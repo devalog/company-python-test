@@ -1,6 +1,6 @@
 # Reference
 ## Imdb
-<details><summary><code>client.imdb.<a href="src/devin/imdb/client.py">create_movie</a>(...)</code></summary>
+<details><summary><code>client.imdb.<a href="src/devintest/imdb/client.py">create_movie</a>(...)</code></summary>
 <dl>
 <dd>
 
@@ -27,9 +27,9 @@ Add a movie to the database
 <dd>
 
 ```python
-from devin import CustomClientName
+from devintest import MyClientNameDevin
 
-client = CustomClientName(
+client = MyClientNameDevin(
     base_url="https://yourhost.com/path/to/api",
 )
 client.imdb.create_movie(
@@ -79,7 +79,7 @@ client.imdb.create_movie(
 </dl>
 </details>
 
-<details><summary><code>client.imdb.<a href="src/devin/imdb/client.py">get_movie</a>(...)</code></summary>
+<details><summary><code>client.imdb.<a href="src/devintest/imdb/client.py">get_movie</a>(...)</code></summary>
 <dl>
 <dd>
 
@@ -106,9 +106,9 @@ Retrieve a movie from the database based on the ID
 <dd>
 
 ```python
-from devin import CustomClientName
+from devintest import MyClientNameDevin
 
-client = CustomClientName(
+client = MyClientNameDevin(
     base_url="https://yourhost.com/path/to/api",
 )
 client.imdb.get_movie(

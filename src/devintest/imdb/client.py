@@ -48,9 +48,9 @@ class ImdbClient:
 
         Examples
         --------
-        from devin import CustomClientName
+        from devintest import MyClientNameDevin
 
-        client = CustomClientName(
+        client = MyClientNameDevin(
             base_url="https://yourhost.com/path/to/api",
         )
         client.imdb.create_movie(
@@ -78,9 +78,9 @@ class ImdbClient:
 
         Examples
         --------
-        from devin import CustomClientName
+        from devintest import MyClientNameDevin
 
-        client = CustomClientName(
+        client = MyClientNameDevin(
             base_url="https://yourhost.com/path/to/api",
         )
         client.imdb.get_movie(
@@ -129,9 +129,9 @@ class AsyncImdbClient:
         --------
         import asyncio
 
-        from devin import AsyncCustomClientName
+        from devintest import AsyncMyClientNameDevin
 
-        client = AsyncCustomClientName(
+        client = AsyncMyClientNameDevin(
             base_url="https://yourhost.com/path/to/api",
         )
 
@@ -167,9 +167,9 @@ class AsyncImdbClient:
         --------
         import asyncio
 
-        from devin import AsyncCustomClientName
+        from devintest import AsyncMyClientNameDevin
 
-        client = AsyncCustomClientName(
+        client = AsyncMyClientNameDevin(
             base_url="https://yourhost.com/path/to/api",
         )
 

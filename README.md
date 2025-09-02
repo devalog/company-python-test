@@ -1,14 +1,14 @@
-# Devin Python Library
+# Devintest Python Library
 
 [![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=https%3A%2F%2Fgithub.com%2Fdevalog%2Fcompany-python-test)
-[![pypi](https://img.shields.io/pypi/v/test-package-devin)](https://pypi.python.org/pypi/test-package-devin)
+[![pypi](https://img.shields.io/pypi/v/devin-new-test-package)](https://pypi.python.org/pypi/devin-new-test-package)
 
-The Devin Python library provides convenient access to the Devin API from Python.
+The Devintest Python library provides convenient access to the Devintest APIs from Python.
 
 ## Installation
 
 ```sh
-pip install test-package-devin
+pip install devin-new-test-package
 ```
 
 ## Reference
@@ -20,9 +20,9 @@ A full reference for this library is available [here](https://github.com/devalog
 Instantiate and use the client with the following:
 
 ```python
-from devin import CustomClientName
+from devintest import MyClientNameDevin
 
-client = CustomClientName(
+client = MyClientNameDevin(
     base_url="https://yourhost.com/path/to/api",
 )
 client.imdb.create_movie(
@@ -38,9 +38,9 @@ The SDK also exports an `async` client so that you can make non-blocking calls t
 ```python
 import asyncio
 
-from devin import AsyncCustomClientName
+from devintest import AsyncMyClientNameDevin
 
-client = AsyncCustomClientName(
+client = AsyncMyClientNameDevin(
     base_url="https://yourhost.com/path/to/api",
 )
 
@@ -61,7 +61,7 @@ When the API returns a non-success status code (4xx or 5xx response), a subclass
 will be thrown.
 
 ```python
-from devin.core.api_error import ApiError
+from devintest.core.api_error import ApiError
 
 try:
     client.imdb.create_movie(...)
@@ -78,9 +78,9 @@ The SDK provides access to raw response data, including headers, through the `.w
 The `.with_raw_response` property returns a "raw" client that can be used to access the `.headers` and `.data` attributes.
 
 ```python
-from devin import CustomClientName
+from devintest import MyClientNameDevin
 
-client = CustomClientName(
+client = MyClientNameDevin(
     ...,
 )
 response = client.imdb.with_raw_response.create_movie(...)
@@ -114,9 +114,9 @@ The SDK defaults to a 60 second timeout. You can configure this with a timeout o
 
 ```python
 
-from devin import CustomClientName
+from devintest import MyClientNameDevin
 
-client = CustomClientName(
+client = MyClientNameDevin(
     ...,
     timeout=20.0,
 )
@@ -135,9 +135,9 @@ and transports.
 
 ```python
 import httpx
-from devin import CustomClientName
+from devintest import MyClientNameDevin
 
-client = CustomClientName(
+client = MyClientNameDevin(
     ...,
     httpx_client=httpx.Client(
         proxies="http://my.test.proxy.example.com",

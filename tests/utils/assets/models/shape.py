@@ -8,7 +8,7 @@ import typing
 
 import typing_extensions
 
-from devin.core.serialization import FieldMetadata
+from devintest.core.serialization import FieldMetadata
 
 
 class Base(typing_extensions.TypedDict):

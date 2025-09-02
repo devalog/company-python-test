@@ -1,9 +1,9 @@
 [project]
-name = "test-package-devin"
+name = "devin-new-test-package"
 
 [tool.poetry]
-name = "test-package-devin"
-version = "0.0.4"
+name = "devin-new-test-package"
+version = "0.0.5"
 description = ""
 readme = "README.md"
 authors = []
@@ -27,7 +27,7 @@ classifiers = [
     "Typing :: Typed"
 ]
 packages = [
-    { include = "devin", from = "src"}
+    { include = "devintest", from = "src"}
 ]
 
 [project.urls]
