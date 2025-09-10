@@ -3,7 +3,7 @@ name = "devin-new-test-package"
 
 [tool.poetry]
 name = "devin-new-test-package"
-version = "0.0.9"
+version = "0.1.0"
 description = ""
 readme = "README.md"
 authors = []
@@ -31,7 +31,7 @@ packages = [
 ]
 
 [project.urls]
-Repository = 'https://github.com/devalog/company-python-test'
+Repository = 'https://github.com/devalog/python-sdk'
 
 [tool.poetry.dependencies]
 python = "^3.8"

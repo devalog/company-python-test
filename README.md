@@ -1,9 +1,9 @@
 # Devintest Python Library
 
-[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=https%3A%2F%2Fgithub.com%2Fdevalog%2Fcompany-python-test)
+[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=https%3A%2F%2Fgithub.com%2Fdevalog%2Fpython-sdk)
 [![pypi](https://img.shields.io/pypi/v/devin-new-test-package)](https://pypi.python.org/pypi/devin-new-test-package)
 
-The Devintest Python library provides convenient access to the Devintest APIs from Python.
+Welcome to my API
 
 ## Installation
 
@@ -13,7 +13,7 @@ pip install devin-new-test-package
 
 ## Reference
 
-A full reference for this library is available [here](https://github.com/devalog/company-python-test/blob/HEAD/./reference.md).
+A full reference for this library is available [here](https://github.com/devalog/python-sdk/blob/HEAD/./reference.md).
 
 ## Usage
 
@@ -155,3 +155,4 @@ a proof of concept, but know that we will not be able to merge it as-is. We sugg
 an issue first to discuss with us!
 
 On the other hand, contributions to the README are always very welcome!
+
